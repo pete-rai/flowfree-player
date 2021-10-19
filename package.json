@@ -1,0 +1,30 @@
+{
+  "name": "flowfree-player",
+  "version": "1.0.0",
+  "description": "Automatically plays FlowFree on a connected Android device",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pete-rai/flowfree-player.git"
+  },
+  "keywords": [
+    "flowfree",
+    "android",
+    "automation",
+    "puzzle",
+    "game"
+  ],
+  "author": "Pete Rai",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/pete-rai/flowfree-player/issues"
+  },
+  "homepage": "https://github.com/pete-rai/flowfree-player#readme",
+  "dependencies": {
+    "android-automate": "^1.0.0",
+    "dotenv": "^10.0.0"
+  }
+}
