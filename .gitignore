@@ -2,3 +2,4 @@ node_modules/
 board.txt
 *.png
 .env
+.DS_Store
