@@ -4,7 +4,7 @@
 
 ## Overview
 
-This node module automatically plays [FlowFree](https://www.bigduckgames.com/flowfree) on a connected Android device. It can play any board size, but is limited to rectangular boards and board without obstructions. You can see it in action by watching this demonstration video:
+This node module automatically plays [FlowFree](https://www.bigduckgames.com/flowfree) on a connected Android device. It can play any board size, but is limited to rectangular boards and board without obstructions. You can see it in action by watching this video:
 
 > http://TODO
 
@@ -34,9 +34,9 @@ Here are some notes on how you can install ```flowfree-player``` and get it runn
 
 ### Dependencies
 
-This module has a dependency on ```node``` and on ```python```. Both must be installed and operational on your host machine. The python solve has a dependencies on the library ```pycosat``` and you should install this using the ```pip``` infrastructure.
+This module has a dependency on ```node``` and on ```python```. Both must be installed and operational on your host machine. The python solver has a dependency on the ```pycosat``` library and you should install this using the ```pip``` infrastructure.
 
-The ```android-automate``` infrastructure, also has dependencies on the Android Platform Tools. Please refer to the [Before You Start](https://github.com/pete-rai/node-android-automate#before-you-start) section of the ```android-automate``` readme to find out how to install the dependencies of that module and how to connect your target device.
+The ```android-automate``` module, also has a dependency on the Android Platform Tools. Please refer to the [Before You Start](https://github.com/pete-rai/node-android-automate#before-you-start) section of the ```android-automate``` readme to find out how to install the dependencies of that module and how to connect your target device.
 
 ### Configuration
 
