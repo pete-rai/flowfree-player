@@ -19,5 +19,9 @@
 'use strict';
 
 require('dotenv').config();
+
 const FlowFree = require('./lib/flowfree.js');
-new FlowFree().play();
+const args = process.argv.slice(2);
+const player = new FlowFree();
+
+args.length ? player.shoot() : player.play();  // any argument will result in a screenshot
