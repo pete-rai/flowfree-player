@@ -1,5 +1,5 @@
 node_modules/
 board.txt
-*.png
+/*.png
 .env
 .DS_Store
