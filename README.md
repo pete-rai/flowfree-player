@@ -43,14 +43,14 @@ The ```android-automate``` infrastructure, also has dependencies on the Android 
 To configure your local installation, first make a ```.env``` file, by coping the ```.env.example``` file. Then modify the entries in this file to match your local environment.
 
 | Option  | Description |
-| --- | --- | --- |
+| --- | --- |
 | <tt>PYTHON_PATH</tt> | The path to your python executable. |
 | <tt>SCREEN_INFO</tt> | A JSON structure outlining where the game info is on the screen of your target device. |
 | <tt>SCREEN_BOARD</tt> | A JSON structure outlining where the puzzle board is on the screen of your target device. |
 
 You can refer to the diagram below to see which rectangles you must specify in the ```SCREEN_``` options configuration.
 
-[img]
+![Example Screenshot](/docs/screenshot.png)
 
 You can use a module option to take a screenshot of the game onto your local machine to help identify these coordinates (see next section).
 
@@ -71,7 +71,7 @@ npm start
 You can use the following to generate a local screenshot to help you configure the application, as described in the earlier section:
 
 ```
-npm screenshot
+npm run screenshot
 ```
 
 The screenshot will be present in the project folder as ```screenshot.png```.
