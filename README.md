@@ -16,6 +16,8 @@ Using ```android-automate```, you can control any connected Android device using
 
 The core logic for the game is provided by [Matt Zucker](https://github.com/mzucker)'s excellent Python solution. This reduces the board to a [boolean satisfiability problem](https://en.wikipedia.org/wiki/Boolean_satisfiability_problem), which is then solved using the [pycosat](https://github.com/conda/pycosat) solver.
 
+This application uses this Python solver, but wraps around it a way to "read" the board from the screen, feed this to the solver and then to convert the computed solution into a series of on-screen swipes.
+
 ### License
 
 This project is available under [the MIT license](https://github.com/pete-rai/flowfree-player/blob/main/LICENSE). _Please respect the terms of the license._
@@ -62,7 +64,7 @@ To run the application, assuming you have completed all the steps in the depende
 npm install
 ```
 
-Then run the module like this:
+To run the module, first make sure that your device is running FlowFree and is parked on the puzzle board which you want to solve and that no squares have yet been played. Then start the solver like this:
 
 ```
 npm start
