@@ -6,7 +6,7 @@
 
 This node module automatically plays [FlowFree](https://www.bigduckgames.com/flowfree) on a connected Android device. It can play any board size, but is limited to rectangular boards and board without obstructions. You can see it in action by watching this video:
 
-> http://TODO
+> https://www.youtube.com/watch?v=g5ZkIrRvxMc
 
 The module is implemented as a demonstration of my node module [android-automate](https://github.com/pete-rai/node-android-automate) which is available as an official node package manager repo:
 
